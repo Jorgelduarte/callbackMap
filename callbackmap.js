@@ -2,7 +2,7 @@ var words = ["ground", "control", "to", "major", "tom"];
 
 function map(arr, func) {
     var newArray = [];
-    words.filter(function (element){
+    arr.filter(function (element){
         newArray.push(func(element))
     })
     console.log(newArray)
